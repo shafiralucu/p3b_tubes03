@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tubes03">
 
+    //tambah permission di internet
+    <uses-permission android:name="android.permission.INTERNET"/>s
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
